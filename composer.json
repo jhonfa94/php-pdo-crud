@@ -1,0 +1,22 @@
+{
+    "name": "jfcm/monedas",
+    "description": "Proyecto de ejemplo MVC",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DB\\": "db/",
+            "Config\\": "config/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jhon Fabio Cardona Martinez",
+            "email": "jfcmdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

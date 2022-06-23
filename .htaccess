@@ -1,0 +1,10 @@
+# Oculto las carpetas del proyecto
+Options All -Indexes
+
+# Configurar los error 404 y 403
+ErrorDocument 403 /monedas
+ErrorDocument 404 /monedas
+
+# Habilitar las url amigables
+RewriteEngine On 
+RewriteRule ^([-a-zA-Z0-9/()_]+)$ index.php?ruta=$1
